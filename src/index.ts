@@ -1,2 +1,4 @@
-// eslint-disable-next-line
-export const greet = () => console.log('Hello, world!');
+import Client from './internal';
+
+// eslint-disable-next-line import/prefer-default-export
+export { Client };
